@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: azure;
+}
+
+h1 {
+    margin-bottom: 3px;
+    letter-spacing: 5px;
+    font-family: 'Roboto Mono', monospace;
+    padding-top: 125px;
+    font-size: 72px;
+    text-align: center;
+}
+
+.text {
+    text-decoration: underline 2px black;
+    padding-bottom: 60px;
+    font-size: 18px;
+}
+
+p {
+    text-align: center;
+}
+
+.clock {
+    background-color:aliceblue;
+    border-radius: 50px;
+    border: 2px solid black;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 72px;
+}
+
+.start {
+    width: 200px;
+    height: 80px;
+}
+
+button {
+    margin-left: 5px;
+    margin-top: 60px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #fff; /* цвет текста */
+    text-decoration: none; /* убирать подчёркивание у ссылок */
+    user-select: none; /* убирать выделение текста */
+    background: rgb(59, 202, 59); /* фон кнопки */
+    width: 150px;
+    height: 60px;
+    outline: none; /* убирать контур в Mozilla */
+}
+
+button:hover { 
+    transition: background 0.4s ease-out;
+    background:rgb(109, 236, 109); /* при наведении курсора мышки */
+} 
+button:active { 
+    background: rgb(39, 148, 39); /* при нажатии */
+} 
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -170px;
+}
+.footer,
+.push {
+    height: 170px;
+}
+.footer {
+    background-color: black;
+}
+
+.footer img {
+    width: 300px;
+}
+
+.footer p {
+    padding-top: 50px;
+    text-align: center;
+}
+
+@media (max-width: 480px) {
+    .wrapper {
+        display: table;
+        margin: 0 auto 15px;
+    }
+}
