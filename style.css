@@ -88,8 +88,7 @@ html, body {
 }
 
 @media (max-width: 480px) {
-    .wrapper {
-        display: table;
-        margin: 0 auto 15px;
+    .button {
+        width: 75px;
     }
 }
