@@ -102,4 +102,9 @@ html, body {
     .clock {
         text-align: center;
     }
+    
+    .wrapper {
+        width: 100%;
+        text-align: center;
+    }
 }
