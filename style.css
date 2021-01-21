@@ -88,7 +88,7 @@ html, body {
 }
 
 @media (max-width: 480px) {
-    .button {
+    button {
         width: 75px;
     }
 }
