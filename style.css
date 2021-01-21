@@ -91,4 +91,8 @@ html, body {
     button {
         width: 75px;
     }
+    
+    footer {
+        width: 100%;
+        margin-top: 60px;
 }
