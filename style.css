@@ -117,4 +117,9 @@ html, body {
     .btns {
         text-align: center;
     }
+    
+    h1 {
+        font-size: 64px;
+        text-align: center;
+    }
 }
