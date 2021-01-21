@@ -90,10 +90,16 @@ html, body {
 @media (max-width: 480px) {
     button {
         width: 75px;
+        text-align: center;
     }
     
     footer {
         width: 100%;
         margin-top: 60px;
         text-align: center;
+    }
+    
+    .clock {
+        text-align: center;
+    }
 }
