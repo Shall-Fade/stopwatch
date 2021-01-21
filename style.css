@@ -90,7 +90,6 @@ html, body {
 @media (max-width: 480px) {
     button {
         width: 75px;
-        text-align: center;
     }
     
     footer {
@@ -105,6 +104,10 @@ html, body {
     
     .wrapper {
         width: 100%;
+        text-align: center;
+    }
+    
+    .btns {
         text-align: center;
     }
 }
