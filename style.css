@@ -89,6 +89,7 @@ html, body {
 
 @media (max-width: 480px) {
     button {
+        margin-left: 5px;
         width: 75px;
     }
     
